@@ -1,0 +1,420 @@
+/* ==========================================================================
+	Style.css for awluko.com/
+	
+	Colors
+	_______________________
+	
+	Black: 			#000000
+	Darker Gray:	#222222
+	Dark Gray:		#333333
+	Gray:			#444444
+	Light Gray:		#eeeeee
+	Light Blue:		#00c0ff
+	Dark Blue:		#0090bf
+	Title Text:		#777777
+	
+	Social Icon Colors
+	_______________________
+	
+	Facebook:		#3e5599
+	LinkedIn: 		#067bb8
+	Twitter: 		#2baae3
+	Interpals:		#ff8474
+	Google+:		#e64434
+	Github:			#000000
+	Instagram:		#00c0ff
+	
+   ========================================================================== */
+
+/* ==========================================================================
+   Layout Styles
+   ========================================================================== */
+
+header {
+	background: #fff;
+}
+
+body {
+	padding-top: 40px;
+	background: #fafaf9;
+	position: relative;
+}
+
+#futureProjects {
+	margin-bottom: 50px;
+}
+
+/* ==========================================================================
+   Typography Styles
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Social Icon Styles
+   ========================================================================== */
+
+.socials {
+	float: right;
+	margin: 20px 10px 0 0;
+}
+
+.socials a {
+	margin: 5px;
+	color: #ddd;
+
+	/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.facebook:hover {
+	color: #3e5599;
+}
+
+.linkedIn:hover {
+	color: #067bb8;
+}
+
+.twitter:hover {
+	color: #2baae3;
+}
+
+.interpals:hover {
+	color: #ff8474;
+}
+
+.googlePlus:hover {
+	color: #e64434;
+}
+
+.github:hover {
+	color: #000;
+}
+
+.instagram:hover {
+	color: #00c0ff;
+}
+
+.flickr:hover {
+	color: #ff0080;
+}
+
+
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+#actualnavigation {
+	background: #f8f8f8; 
+}
+
+#nameTop {
+	font-weight: 200;
+	margin-bottom: -10px;
+	padding: 0;
+	
+	color: #000;
+
+	/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+    
+#nameTop:hover {
+	color: #ddd;
+}
+
+.pageNavigation {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.pageNavigation > li > a {
+	color: #777;
+
+	/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.pageNavigation > li > a:hover {
+	color: #333;	
+	background: none;
+}
+
+.socials {
+	float: right;
+	margin: 20px;
+}
+
+#navigation {
+	margin-top: 5px;
+}
+
+#socialNav {
+	float: right;
+}
+
+.myTable {
+	display: table;
+	margin: 0 auto;
+}
+
+
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+   
+
+.upper {
+	text-transform: uppercase;
+}
+
+body {
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   Body Styles
+   ========================================================================== */
+
+.pageText {
+	color: #333;
+	margin-top: 20px;
+}
+
+.titleText {
+	text-align: center;
+	color: #777;
+	font-weight: 200;
+	margin-top: 20px;
+}
+
+.descText {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: left;
+	font-weight: 200;
+	font-size: 16px;
+}
+
+.sectionDesc {
+	text-align: center;
+}
+
+#aboutMe, #projects {
+	margin-top: 60px;
+}
+
+.projectArea{
+	margin-top: 30px;
+}
+.projectLogo {
+	display: inline-block;
+	float: left;
+	width: 15%;
+}
+.projectDesc {
+	display: inline-block;
+	width: 85%;
+	margin: auto;
+}
+
+.projectLogo i {
+	color: #ddd;
+	
+	/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+#computerSect i:hover {
+	color: #f16529;	
+}
+#responsiveWeb i:hover {
+	color: #6f3764;	
+}
+#ChitChat i:hover {
+	color: #00c0ff;
+}
+
+#futureProjects {
+	margin-top: 40px;
+}
+
+/* ==========================================================================
+   Contact Page
+   ========================================================================== */
+.socialContainer a {
+	margin-left: 28px;
+	color: #ddd;
+
+	/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.socialSml a {
+	color: #ddd;
+
+	/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.facebook:hover {
+	color: #3e5599;
+}
+
+.socialContainer #linkedInContactLogo:hover {
+	color: #067bb8;
+}
+
+.socialContainer #twitterContactLogo:hover {
+	color: #2baae3;
+}
+
+.socialContainer #interpalsContactLogo:hover {
+	color: #ff8474;
+}
+
+.socialContainer #googlePlusContactLogo:hover {
+	color: #e64434;
+}
+
+.socialContainer #githubContactLogo:hover {
+	color: #000;
+}
+
+.socialContainer #instagramContactLogo:hover {
+	color: #00c0ff;
+}
+
+.socialContainer #flickrContactLogo:hover {
+	color: #ff0080;
+}
+
+.blah {
+	margin: auto;
+}
+
+.socialContainer {
+	width: 550px;
+	margin: auto;
+	padding-top: 15px;
+}
+
+#contactMe {
+	padding: 15px;
+	background-color: #fff;
+}
+
+.contactLink a {
+	text-decoration: none;
+	color: #ddd;
+	
+		/*For Color Change Fade on Hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#phoneNum a:hover{
+	cursor: default;
+	color: #000;
+}
+
+#emailContact a:hover {
+	color: #000;
+}
+
+
+/* ==========================================================================
+   Responsive Queries
+   ========================================================================== */
+   
+@media only screen and (min-width: 767px) and (max-width: 988px){
+	#nameBrand {
+		width: 50%;
+	}
+	
+	.projectDesc {
+		width: 70%;
+		margin-left: 22px;
+	}
+	
+	.smlContainer {
+		width: 450px;
+	}
+	.smlContainer > a {
+		margin-left: 16px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		margin-top: 65px;
+	}
+	
+	.myTable {
+		display: inline;
+		clear: both;
+	}
+	
+	#nameBrand {
+		text-align: center;
+	}
+	
+	.contactLink {
+		font-size: 1.5em;
+	}
+	
+	.projectLogo {
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.projectDesc {
+		width: 100%;
+	}
+	.navbar-brand {
+		float: none;
+	}
+	.descText {
+		width: 100%;
+		text-align: justify;
+		margin: 0;
+	}
+	
+	.smlContainer {
+		width: 310px;
+	}
+	.smlContainer > a {
+		margin-left: 11px;
+	}
+
+}
